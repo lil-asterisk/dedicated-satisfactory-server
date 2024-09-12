@@ -30,10 +30,10 @@
 1. Obtain your public IP by visiting [icanhazip.com](https://icanhazip.com).
 2. On a non-server setup (client machine), claim the server and set a password using:
    - Public IP
-   - Port: `15777`
+   - Port: `7777`
 
 ## Step 6: Share Server Details
-- Provide your public IP, port (`15777`), and the server password to others for them to connect.
+- Provide your public IP, port (`7777`), and the server password to others for them to connect.
 
 ---
 
@@ -46,5 +46,5 @@
 5. Obtain your public IP from [icanhazip.com](https://icanhazip.com).
 6. On a non-server setup (client machine), claim the server and set a password using:
    - Public IP
-   - Port: `15777`
-7. Share your public IP, port `15777`, and password with others to connect.
+   - Port: `7777`
+7. Share your public IP, port `7777`, and password with others to connect.

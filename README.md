@@ -5,14 +5,14 @@
 
 ## Step 1: Get Your Local IP
 1. Open the Command Prompt and run `ipconfig`.
-2. Find the "IPv4 Address" line and note down the IP (e.g., `192.168.1.[x]`).
+2. Find the "IPv4 Address" line and note down the IP (e.g., `192.168.1.[x]`, `192.168.254.[x]` or `10.0.0.[x]`).
 
 ## Step 2: Configure Port Forwarding on Your Router
 1. Access your router's configuration page and navigate to **Port Forwarding**.
 2. Create a new Port Forwarding rule with the following settings:
-   - **External Start Port:** `7777`, `15000`, `15777`
-   - **Internal Start Port:** `7777`, `15000`, `15777`
-   - **Internal IP Address:** `192.168.1.[x]` (from Step 1)
+   - **External Start Port:** `7777`
+   - **Internal Start Port:** `7777`
+   - **Internal IP Address:** Noted down from Step 1
    - **Protocol:** TCP/UDP
    - Check "Use the same port range for Internal port."
 
